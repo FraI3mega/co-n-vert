@@ -1,0 +1,10 @@
+[package]
+name = "co-n-vert"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[lints.clippy]
+pedantic = { level = "deny", priority = -1 } # UM, ACTUALLY
+nursery = { level = "deny", priority = -1 }  # BETA LINTS
