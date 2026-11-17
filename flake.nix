@@ -40,7 +40,10 @@
                 (rust-bin.selectLatestNightlyWith (
                   toolchain:
                   toolchain.default.override {
-                    extensions = [ "rust-analyzer" ];
+                    extensions = [
+                      "rust-analyzer"
+                      "rust-src"
+                    ];
                   }
                 ))
                 bacon
